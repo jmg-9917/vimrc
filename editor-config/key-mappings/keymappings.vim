@@ -23,4 +23,6 @@
     "Git commit staged changes"
     nmap <leader>gc :Git commit<CR>
     "Git push commits to repo"
-    nmap <leader>gp :Git push<CR>
+    nmap <leader>gph :Git push<CR>
+    "Git pull changes to local repo"
+    nmap <leader>gpl :Git pull<CR>
