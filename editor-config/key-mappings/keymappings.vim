@@ -16,4 +16,11 @@
     nmap <leader>es :wq<CR>
     "Close window if possible"
     nmap <leader>cw :q<CR>
-    
+    "Update PlugIns"
+    nmap <leader>upi :PlugInstall<CR> 
+    "Git Status to see staged or modified files"
+    nmap <leader>gs :G<CR>
+    "Git commit staged changes"
+    nmap <leader>gc :Git commit<CR>
+    "Git push commits to repo"
+    nmap <leader>gp :Git push<CR>

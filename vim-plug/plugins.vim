@@ -7,24 +7,28 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
     call plug#begin('~/.config/nvim/autoload/plugged')
 
-    "Airline"
+    " Airline"
     Plug 'vim-airline/vim-airline'
     " Plug in to make html development faster"
     Plug 'mattn/emmet-vim'
     " Better Syntax Support"
     Plug 'sheerun/vim-polyglot'
-    "Conquer of completion, fast autocomplete"
+    " Conquer of completion, fast autocomplete"
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
     " File Explorer
     Plug 'scrooloose/NERDTree'
-    "fuzzyfinder"
+    " Find differences in file with git repo"
+    Plug 'airblade/vim-gitgutter' 
+    " fugitive to make git operations efficiently and painless"
+    Plug 'tpope/vim-fugitive'
+    " fuzzyfinder"
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
-    "Auto pairs for '(' '[' '{'
+    " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    "IndentLine for easier interpretation of code blocks"
+    " IndentLine for easier interpretation of code blocks"
     Plug 'Yggdroot/indentLine'
-    "Colorscheme plugin"
+    " Colorscheme plugin"
     Plug 'ghifarit53/tokyonight-vim'
     call plug#end()
 
