@@ -10,10 +10,12 @@
     nmap <leader>gf :GFiles<CR>
     "Change colorscheme for session"
     nmap <leader>ccs :Colors<CR>
-    "Emergency EXIT"
+    "Emergency Exit"
     nmap <leader>ee :q!<CR>
-    "EXIT and SAVE"
+    "Exit and Save"
     nmap <leader>es :wq<CR>
+    "Save"
+    nmap <leader>s :w<CR>
     "Close window if possible"
     nmap <leader>cw :q<CR>
     "Update PlugIns"
